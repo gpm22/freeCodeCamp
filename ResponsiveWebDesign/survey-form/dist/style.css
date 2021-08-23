@@ -1,0 +1,68 @@
+body {
+  background: black;
+}
+
+header {
+  text-align:center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color:white;
+  font-family:sans-serif;
+}
+
+form {
+  align-items: center;
+  justify-content: center;
+  background: white;
+  padding: 25px 30px 50px 30px;
+  color:black;
+}
+
+label, select {
+  cursor: pointer;
+}
+
+.submit-button, .button {
+  border: none;
+  background: black;
+  color: white;
+  cursor: pointer;
+  align-items:center;
+  text-align:center;
+  padding:5px;
+}
+
+.input-textarea {
+  width: 400px;
+  height: 100px;
+}
+
+.check {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: left;
+}
+
+.text-data {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: left;
+  padding: 15px;
+  padding-left: 0px;
+}
+
+input{
+  margin:5px;
+  padding:5px;
+}
+
+.clue {
+  font-size:75%;
+}

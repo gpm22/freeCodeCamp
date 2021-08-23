@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Survey Form</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!-- 
+
+Hello Camper!
+
+For now, the test suite only works in Chrome! Please read the README below in the JS Editor before beginning. Feel free to delete this message once you have read it. Good luck and Happy Coding! 
+
+- The freeCodeCamp Team 
+
+-->
+<main>
+  <header>
+    <h1 id="title">Pokemon Academy Survey Form</h1>
+    <p id="description"> This survey aims to find out more about the profile of the Pokemon trainers at our academy.</p>
+  </header>
+   <form id="survey-form">
+     <div id="text-data">
+      <div class="group-form text-data">
+        <label id="name-label" for="name">Trainer Name</label>
+        <input type="text" id="name" name="name" class="form-control" placeholder="Please enter your Trainer Name here" required/>
+      </div>
+      <div class="group-form text-data">
+        <label id="email-label" for="email">PokeMail</label>
+        <input type="email" id="email" name="email" class="form-control" placeholder="Please enter your PokeMail here" required/>
+      </div>
+      <div class="group-form text-data">
+        <label id="number-label" for="number">PokeNumber</label>
+        <input type="number" id="number" name="number" class="form-control" placeholder="Please enter your PokeNumber here" min="10000000" max="99999999"required/>
+      </div>
+    </div>
+    <div class="group-form">
+      <p>Which is the best starter pokemon?</p>
+      <select id="dropdown" name="starter-pokemon" class"form-control" required>
+        <option disabled selected value>Select the best starter pokemon</option>
+        <option value="Bulbasaur">Bulbasaur</option>
+        <option value="Charmander">Charmander</option>
+        <option value="Squirtle">Squirtle</option>
+        <option value="Chikorita">Chikorita</option>
+        <option value="Cyndaquil">Cyndaquil</option>
+        <option value="Totodile">Totodile</option>
+        <option value="Treecko">Treecko</option>
+        <option value="Torchic">Torchic</option>
+        <option value="Mudkip">Mudkip</option>
+        <option value="Turtwig">Turtwig</option>
+        <option value="Chimchar">Chimchar</option>
+        <option value="Piplup">Piplup</option>
+        <option value="Snivy">Snivy</option>
+        <option value="Tepig">Tepig</option>
+        <option value="Oshawott">Oshawott</option>
+        <option value="Chespin">Chespin</option>
+        <option value="Fennekin">Fennekin</option>
+        <option value="Froakie">Froakie</option>
+        <option value="Rowlet">Rowlet</option>
+        <option value="Litten">Litten</option>
+        <option value="Popplio">Popplio</option>
+        <option value="Grookey">Grookey</option>
+        <option value="Scorbunny">Scorbunny</option>
+        <option value="Soobble">Sooble</option>
+      </select>      
+    </div>
+     <div class="group-form check">
+       <p> 
+         Who is the best Pokemon League Champions?
+         </p>
+       <label>
+         <input name="champion" value="Blue" type="radio" class="input-radio" checked/>
+         Blue
+       </label>
+       <label>
+         <input name="champion" value="Trace" type="radio" class="input-radio" checked/>
+         Trace
+       </label>
+       <label>
+         <input name="champion" value="Lance" type="radio" class="input-radio" checked/>
+         Lance
+       </label>
+       <label>
+         <input name="champion" value="Red" type="radio" class="input-radio" checked/>
+         Red
+       </label>
+       <label>
+         <input name="champion" value="Steven" type="radio" class="input-radio" checked/>
+         Steven
+       </label>
+       <label>
+         <input name="champion" value="Wallace" type="radio" class="input-radio" checked/>
+         Wallace
+       </label>
+       <label>
+         <input name="champion" value="Cynthia" type="radio" class="input-radio" checked/>
+         Cynthia
+       </label>
+       <label>
+         <input name="champion" value="Alder" type="radio" class="input-radio" checked/>
+         Alder
+       </label>
+       <label>
+         <input name="champion" value="Iris" type="radio" class="input-radio" checked/>
+         Iris
+       </label>
+       <label>
+         <input name="champion" value="Diantha" type="radio" class="input-radio" checked/>
+         Diantha
+       </label>
+       <label>
+         <input name="champion" value="Leon" type="radio" class="input-radio" checked/>
+         Leon
+       </label>
+       <label>
+         <input name="champion" value="Mustard" type="radio" class="input-radio" checked/>
+         Mustard
+       </label>
+       <label>
+         <input name="champion" value="Peony" type="radio" class="input-radio" checked/>
+         Peony
+       </label>
+     </div>
+     <div class="form-group check">
+      <p>
+        Who are the best rivals?
+        <span class="clue">(Check all that apply)</span>
+      </p>
+      <label><input name="rival" value="Blue" type="checkbox"class="input-checkbox"/>Blue</label>
+      <label>
+        <input name="rival" value="Trace" type="checkbox" class="input-checkbox"/>Trace</label>
+      <label><input name="rival" value=" Silver" type="checkbox" class="input-checkbox"/>Silver</label>
+      <label><input name="rival" value="brendan" type="checkbox" class="input-checkbox"/>brendan</label>
+      <label><input name="rival" value="May" type="checkbox" class="input-checkbox"/>May</label>
+      <label><input name="rival" value="Wally" type="checkbox" class="input-checkbox"/>Wally</label>
+      <label><input name="rival" value="Barry" type="checkbox" class="input-checkbox"/>Barry</label>
+      <label><input name="rival" value="Cheren" type="checkbox" class="input-checkbox"/>Cheren</label>
+      <label><input name="rival" value="Bianca" type="checkbox" class="input-checkbox"/>Bianca</label>
+      <label><input name="rival"= value="Hugh" type="checkbox" class="input-checkbox" />Hugh</label>
+      <label><input name="rival" value="Calem" type="checkbox" class="input-checkbox"/>Calem</label>
+       <label><input name="rival" value="Serena" type="checkbox"class="input-checkbox"/>Serena</label>
+      <label><input name="rival" value="Shauna" type="checkbox" class="input-checkbox"/>Shauna</label>
+      <label><input name="rival" value="Tierno" type="checkbox" class="input-checkbox"/>Tierno</label>
+      <label><input name="rival" value="Trevor" type="checkbox" class="input-checkbox"/>Trevor</label>
+      <label><input name="rival" value="Hau" type="checkbox" class="input-checkbox"/>Hau</label>
+      <label><input name="rival" value="Gladion" type="checkbox" class="input-checkbox"/>Gladion</label>
+      <label><input name="rival" value="Hop" type="checkbox" class="input-checkbox"/>Hop</label>
+      <label><input name="rival" value="Bede" type="checkbox" class="input-checkbox"/>Bede</label>
+      <label><input name="rival" value="Marnie" type="checkbox" class="input-checkbox"/>Marnie</label>
+      <label><input name="rival"= value="Kiara" type="checkbox" class="input-checkbox" />Kiara</label>
+      <label><input name="rival" value="Avery" type="checkbox" class="input-checkbox"/>Avery</label>
+    </div>
+     <div class="group-form">
+      <p id="tellus">Tell us an amazing pokemon story about you.</p>
+      <textarea
+        id="pokestory"
+        class="input-textarea"
+        name="pokemonstory"
+        placeholder="Enter your amazing pokemon story here..."
+      ></textarea>
+    </div>
+     <div class="form-group button">
+      <button type="submit" id="submit" class="submit-button">
+        Submit your PokeForm
+      </button>
+    </div>
+  </form>
+</main>
+<!-- partial -->
+  <script src='https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js'></script>
+</body>
+</html>
