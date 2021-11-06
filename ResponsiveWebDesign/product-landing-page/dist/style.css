@@ -1,0 +1,171 @@
+body {
+  background-color: #111;
+  margin: 0;
+  color: #fff;
+  font-family: sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a, #header, #footer {
+  color: #000;
+  text-decoration: none;
+}
+
+.titles{
+  margin-left: 15px;
+}
+
+.form{
+  margin-left: 50px;
+}
+
+.flavor {
+  margin: auto;
+}
+
+.flavor > img {
+  max-width: 70%;
+}
+
+#header-img {
+  max-height: 50px;
+}
+
+#history {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.logo{
+  display: flex;
+} 
+
+.logo > #slogan {
+  margin: auto 10px;
+  max-height: 50px;
+  font-size: large;
+  font-weight: bold;
+  color: #222;
+}
+
+#header{
+  position: fixed;
+  top: 0;
+  min-height: 50px;
+  max-height: 50px;
+  display: flex;
+  justify-content: space-around;
+  background-color: #fff;
+  width: 100%;
+  
+}
+
+#footer {
+  position: sticky;
+  background-color: #eee;
+  width: 100%;
+}
+
+footer {
+  padding-right: 15px;
+  font-size: small;
+}
+
+#container-body{
+  justify-content: space-around;
+}
+
+#nav-bar {
+  margin: auto 0px;
+}
+
+#nav-bar > ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#nav-bar > ul >li {
+  padding: 0 15px;
+}
+
+#flavors-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flavor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#myfooter > ul{
+  display: flex;
+  justify-content: flex-end;
+  padding-left: 0px;
+  margin-left: 0px;
+}
+
+#myfooter > ul >li {
+  padding: 0 15px;
+}
+
+#myfooter > span{
+  margin-top: 5px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+section{
+  margin: 50px 0 20px 0;
+}
+
+@media (max-width: 650px) { 
+  #header{
+    position: fixed;
+    top: 0;
+    min-height: 120px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: #fff;
+    width: 100%;
+
+  }
+  
+  #nav-bar > ul {
+    justify-content: space-around;
+    padding: 0;
+  }
+  
+  .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #myfooter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  
+  .logo > #slogan {
+    margin: auto 5px;
+  }
+  
+  #flavors-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+}

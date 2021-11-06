@@ -2,7 +2,7 @@
 
 ## Description
 
-This repository contains my projects made to obtain certifications from the **freeCodeCamp** :fire: website.
+This repository contains my projects made to obtain certifications from the [**freeCodeCamp**](https://www.freecodecamp.org/) :fire: website.
 
 ## Contents
 
@@ -21,4 +21,5 @@ This repository contains my projects made to obtain certifications from the **fr
 3. Reponsive Web Design Certification:
    1. [Build a Tribute Page](https://codepen.io/gpm22/pen/jOBGpLo)
    2. [Build a Survei Form](https://codepen.io/gpm22/pen/xxqXJeL)
+   3. [Build a Product Landing Page](https://codepen.io/gpm22/pen/rNyGodY)
 
