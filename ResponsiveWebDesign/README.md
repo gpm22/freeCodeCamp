@@ -6,7 +6,8 @@ This repository contains the apps made to obtain the **Responsive Web Design Cer
 
 ## Contents
 
-1. [Build a Tribute Page](https://codepen.io/gpm22/pen/jOBGpLo)
-2. [Build a Survei Form](https://codepen.io/gpm22/pen/xxqXJeL)
-3. [Build a Product Landing Page](https://codepen.io/gpm22/pen/rNyGodY)
+1. [Build a Tribute Page](https://codepen.io/gpm22/full/jOBGpLo)
+2. [Build a Survei Form](https://codepen.io/gpm22/full/xxqXJeL)
+3. [Build a Product Landing Page](https://codepen.io/gpm22/full/rNyGodY)
+4. [Build a Technical Documentation Page](https://codepen.io/gpm22/full/jOLzqXw)
 
