@@ -2,7 +2,7 @@
 
 ## Description
 
-This repository contains the apps made to obtain the **Responsive Web Design Certification** from the **freeCodeCamp :fire:** website.
+This repository contains the apps made to obtain the **[Responsive Web Design Certification](https://www.freecodecamp.org/certification/gpm22/responsive-web-design)** from the **freeCodeCamp :fire:** website.
 
 ## Contents
 
