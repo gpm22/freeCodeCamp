@@ -15,6 +15,7 @@ This repository contains my projects made to obtain certifications from the [**f
 2. [JavaScript Algorithms and Data Structures](https://www.freecodecamp.org/certification/gpm22/javascript-algorithms-and-data-structures):
    1. [Palindrome Checker](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/javascript-algorithms-and-data-structures-projects/palindrome-checker);
    2. [Roman Numeral Converter](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/javascript-algorithms-and-data-structures-projects/roman-numeral-converter);
+   3. [Caesars Cipher](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/javascript-algorithms-and-data-structures-projects/caesars-cipher);
 3. [Data Analysis with Python Certification](https://www.freecodecamp.org/certification/gpm22/data-analysis-with-python-v7):
    1. [Mean-Variance-Standard Deviation Calculator](https://replit.com/@GabrielPachco/boilerplate-mean-variance-standard-deviation-calculator)
    2. [Demographic Data Analyzer](https://replit.com/@GabrielPachco/boilerplate-demographic-data-analyzer)
